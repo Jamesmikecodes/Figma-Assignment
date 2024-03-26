@@ -1,0 +1,414 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: #fff8f0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #55206d;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #190d37;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000000;
+}
+
+.bigtext {
+  color: #331e6a;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+#hero-section {
+  display: flex;
+  max-width: 1060px;
+  margin: 0 auto 48px auto;
+}
+
+#hero-text {
+  width: 50%;
+  padding: 32px 20px 32px 20px;
+}
+
+#hero-image-wrapper {
+  width: 50%;
+}
+
+#hero-image {
+  width: 100%;
+}
+
+.smalltext {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  color: #000000;
+}
+
+#hi-and-name {
+  margin-top: 20px;
+}
+
+#contact-button {
+  width: 138px;
+  height: 44px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #2f2f2f;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+#pricing-section {
+  max-width: 1060px;
+  margin: 48px auto;
+}
+
+.overtitle {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #2858ff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.section-heading {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.section-subtitle {
+  text-align: center;
+  margin: 8px auto 48px auto;
+  max-width: 700px;
+}
+
+#pricing-boxes {
+  display: flex;
+}
+
+.pricing-box {
+  width: 33.33%;
+}
+
+.pricing-card {
+  background-color: #ffffff;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 6px 2px 25px -9px #0000001a;
+  padding: 20px;
+}
+
+.service {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #2858ff;
+}
+
+.price {
+  font-family: Poppins;
+  font-size: 36px;
+  margin-top: 8px;
+  font-weight: 700;
+  line-height: 54px;
+  color: #000000;
+}
+
+.price-per-page {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #8a8a8a;
+}
+
+.service-description {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #8a8a8a;
+  margin-top: 8px;
+}
+
+.service-benefits {
+  padding: 0;
+  list-style-type: none;
+}
+
+.service-benefits li {
+  margin-bottom: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  color: #666666;
+}
+
+.service-contact-button {
+  width: 100%;
+  height: 44px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 2px solid #2f2f2f;
+  background-color: #ffffff;
+
+  color: 2f2f2f;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.service-contact-button:hover {
+  background-color: #2f2f2f;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card-2 {
+  background-color: #ffd748;
+}
+
+.card-2 .service {
+  color: #000000;
+}
+
+.card-2 li {
+  color: #000000bf;
+}
+
+.card-2 .service-description {
+  color: #000000bf;
+}
+
+.card-2 .price-per-page {
+  color: #000000bf;
+}
+
+.card-2 .service-contact-button {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+
+.card-2 .service-contact-button:hover {
+  background-color: #ffffff;
+  color: #2f2f2f;
+}
+
+#footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500px;
+  line-height: 18px;
+}
+
+.portfolio-section {
+  text-align: center;
+}
+
+.what-i-do {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #2858ff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.portfolio-title-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: League Spartan;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+
+.portfolio-description-text {
+  text-align: center;
+  margin: 8px auto 48px auto;
+  max-width: 700px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #190d37;
+}
+
+.portfolio-boxes {
+  display: flex;
+  max-width: 1060px;
+  margin: 48px auto;
+}
+
+.portfolio-box {
+  width: 33.33%;
+}
+
+.porfolio-card {
+  background-color: #ffffff;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 6px 2px 25px -9px #0000001a;
+  padding: 20px;
+}
+
+.portfolio {
+  width: 300px;
+  height: 27px;
+  top: 959px;
+  left: 210px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.portfolio-text-box {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #55206d;
+}
+
+.project-section {
+  text-align: center;
+}
+
+.my-project {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #2858ff;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.project-title-text {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: League Spartan;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+
+.project-description-text {
+  text-align: center;
+  margin: 8px auto 36px auto;
+  max-width: 700px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #190d37;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+  top: 1571px;
+  left: 190px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  margin-right: 15px;
+}
+
+.project-wrapper {
+  width: 1060px;
+  height: 160px;
+  top: 1571px;
+  left: 190px;
+  margin: 0 auto 0 auto;
+  padding: 17px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  display: flex;
+}
+
+.project-text {
+  width: 880px;
+  height: 96px;
+  top: 1608px;
+  left: 370px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #55206d;
+}
+
+.text-box h3 {
+  width: 125px;
+  height: 27px;
+  top: 1573px;
+  left: 370px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  margin: 3px 0 8px 0;
+  color: #291854;
+}
+
+.link {
+  color: #6a87a3;
+  text-decoration: none;
+}
